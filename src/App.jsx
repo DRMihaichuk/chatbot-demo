@@ -6,14 +6,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 const AppContent = () => {
   return (
     <>
-        <Link to="/zapier">Zapier</Link>
-        <br/>
-        <Link to="/botpress">BotPress</Link>
+        {/*<Link to="/zapier">Zapier</Link>*/}
+        {/*<br/>*/}
+        {/*<Link to="/botpress">BotPress</Link>*/}
 
-        <Routes>
-            <Route path="/zapier" element={<Zapier />} />
-            <Route path="/botpress" element={<BotPress />} />
-        </Routes>
+        {/*<Routes>*/}
+        {/*    <Route path="/zapier" element={<Zapier />} />*/}
+        {/*    <Route path="/botpress" element={<BotPress />} />*/}
+        {/*</Routes>*/}
     </>
   )
 }
